@@ -1,0 +1,40 @@
+.feature-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -32px;
+    z-index: 3;
+    gap: 4px;
+    width: 90%;
+    height: 150px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 1px 30px rgba(36px, 38px, 43px, 0.1);
+}
+.feature-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+    gap: 10px;
+}
+.feature-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+.feature-info h1{
+    line-height: 0;
+    font-size: 24px;
+    color: #10b981;
+    font-weight: 600;
+}
+.feature-info{
+    line-height: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}

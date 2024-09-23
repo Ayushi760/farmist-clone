@@ -1,0 +1,127 @@
+.food-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.food-main h1 {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 1.02px;
+    line-height: 1px;
+}
+
+.food-main span {
+    border-bottom: 5px solid #ffba43;
+}
+
+.button-container {
+    margin: 42px 0px;
+}
+
+.button-container button {
+    font-size: 18px;
+    width: 190px;
+    height: 52px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+button.active {
+    background: #3BB77E;
+    color: white;
+    border: none;
+}
+.food-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 25px;
+    justify-content: center;
+    flex-direction: row;
+}
+.food-card{
+    width: 280px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 30px 0px #24262B1A;
+    background-color: white;
+    padding: 5px;
+}
+.food-card-img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+.food-card p{
+  line-height: 1px;
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+.food-card h3{
+    line-height: 1px;
+    font-size: 21px;
+    font-weight: 600;
+}
+.price-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.price-rating h4{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 0px;
+    color:#3bb77e;
+}
+.price-rating s{
+    color: black;
+}
+.star-rating{
+    display: flex;
+    gap: 2px;
+}
+.cart-buttons{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+.cart-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 148px;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    box-shadow: 0px 1px 30px rgba(36, 38 , 43, 0.1);
+    background-color: #ffba43;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.cart-buttons div{
+    height: 100%;
+    display: flex;
+    gap:4px
+}
+.cart-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffba43;
+}

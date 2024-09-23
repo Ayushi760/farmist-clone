@@ -1,0 +1,71 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    height: 54px;
+    top: 30px;
+    width: 90%;
+}
+.head-text{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+.head-right{
+    display: flex;
+    gap: 7px;
+}
+.head-region{
+    width: 80px;
+    height: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 5px;
+}
+.head-bag{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 90px;
+    height: 40px;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+}
+.head-account{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 120px;
+    height: 40px;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+}
+.search-location{
+    display: flex;
+}
+.head-search-location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 50px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: white;
+}
+.head-mid{
+    display: flex;
+    gap:24px;
+}
+.head-mid a{
+    font-weight: 600;
+    font-size: 24px;
+}

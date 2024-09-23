@@ -1,0 +1,96 @@
+.op-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+    width: 100%;
+    margin-bottom: 110px;
+}
+.op-name h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1px;
+    letter-spacing: 1px;
+}
+.op-name h1 span{
+    border-bottom: 5px solid #ffba43;
+}
+.op-container{
+    display: flex;
+    height: 490px;
+    gap: 47px;
+    width: 90%;
+}
+.op-container-left{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.op-container-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.op-container-left div{
+    position: absolute;
+    text-align: center;
+    margin-top:30px;
+}
+.op-container-left h1{
+    color: white;
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 0.75;
+}
+.op-container-left button{
+    width: 98px;
+    height: 30px;
+    background-color: #ffba43;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.op-container-right{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 38px;
+    width: 66.66%;
+}
+.op-card{
+    display: flex;
+    gap: 15px;
+    box-shadow: 0px 1px 30px rgba(36, 38, 43, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+}
+.op-card-img{
+    height: 100%;
+    width: 120px;
+    object-fit: cover;
+}
+.op-card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.op-card h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    color: #1c2137;
+}
+.op-card p{
+    color: #3bb77e;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+}

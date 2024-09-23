@@ -1,0 +1,32 @@
+.product-video-container{
+    height: 484px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:90px 0px;
+    position: relative;
+}
+.product-video-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-video-container div{
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+}
+.product-video-container h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1px;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 80px;
+}
+.play-btn{
+    height: 120px !important;
+    width: 120px !important;
+    cursor: pointer;
+}
